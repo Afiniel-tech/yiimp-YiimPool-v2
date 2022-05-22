@@ -35,7 +35,7 @@ $payout_freq = (YAAMP_PAYMENTS_FREQ / 3600) . " hours";
 <li><b>Welcome to your new mining pool, domain !</b></li>
 <li>---------------------------------------------------------------------------------------------------</li>
 <li>This installation was completed using Afiniel Yiimp Pool Installer.</li>
-<li>To make any changes on this page edit: /home/yiimp-data/yiimp/site/web/yaamp/modules/site/index.php</li>
+<li>To make any changes on this page edit: /home/crypto-data/yiimp/site/web/yaamp/modules/site/index.php</li>
 <li>---------------------------------------------------------------------------------------------------</li>
 <li>&nbsp;</li>
 <li>No registration is required, we do payouts in the currency you mine. Use your wallet address as the username.</li>
@@ -74,10 +74,10 @@ $payout_freq = (YAAMP_PAYMENTS_FREQ / 3600) . " hours";
 
 <!-- Add your stratum locations here -->
 			<option value="eu.">Europe</option>
-			<option value="us">US Stratum</option>
+    <!--	<option value="us">US Stratum</option>
 			<option value="aus.">AUS Stratum</option>
 			<option value="cad.">CAD Stratum</option>
-			<option value="uk.">UK Stratum</option>
+			<option value="uk.">UK Stratum</option> -->
 		</select>
 	</td>
 
@@ -194,7 +194,7 @@ endif;
     <li><a href="http://www.discord.com"><img src='/images/discord.png' /></a></li>
     <li><a href="http://www.twitter.com"><img src='/images/Twitter.png' /></a></li>
     <li><a href="mailto:"><img src='/images/email.png' /></a></li>
-    <li><a href="http://www.youtube.com"><img src='/images/telegram.png' /></a></li>
+    <li><a href="http://www.telegram.com"><img src='/images/telegram.png' /></a></li>
     <li><a href="http://www.github.com"><img src='/images/Github.png' /></a></li>
 
 </ul>
