@@ -31,7 +31,8 @@ a, a:visited
 
 a:hover
 {
-	color: #4ca6b3;
+	color: #FF9A2C
+;
 	background: inherit;
 	text-decoration: underline;
 }
@@ -123,7 +124,8 @@ hr
 
 .page .tabmenu-inner .selected
 {
-	color: #4ca6b3;
+	color: #FF9A2C
+;
 	background-image: url(/images/base/top_header_selected.png);
 	background-repeat: no-repeat;
 }

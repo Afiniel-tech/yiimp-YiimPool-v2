@@ -36,8 +36,10 @@ span.block.orphan    { color: white; background-color: #d9534f; }
 span.block.immature  { color: white; background-color: #f0ad4e; }
 span.block.confirmed { color: white; background-color: #5cb85c; }
 span.block2          { padding: 2px; display: inline-block; text-align: center; min-width: 35px; border-radius: 3px; margin-right: 5px; }
-span.block2.solo     { color: white;  background-color: #4ca6b3 !important; }
-span.block2.shared   { color: white;  background-color: #4ca6b3 !important; }
+span.block2.solo     { color: white;  background-color: #FF9A2C
+ !important; }
+span.block2.shared   { color: white;  background-color: #FF9A2C
+ !important; }
 </style>
 
 <thead>

@@ -16,7 +16,8 @@ $(function() {
 	$('#favicon').remove();
 	$('head').append('<link href="{$coin->image}" id="favicon" rel="shortcut icon">');
 	$('span.txid').bind('click', function(el) { toggleRaw(el.target); });
-	$('span.txid:contains("{$txid}")').css('color','#4ca6b3');
+	$('span.txid:contains("{$txid}")').css('color','#FF9A2C
+');
 });
 </script>
 
