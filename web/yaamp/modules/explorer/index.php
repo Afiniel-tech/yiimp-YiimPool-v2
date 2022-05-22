@@ -12,7 +12,8 @@ function wallet_peers(id)
 </script>
 
 <style type="text/css">
-a.low { color: red; font-weight: bold; }
+a.low { color: FF9A2C
+; font-weight: bold; }
 </style>
 
 <br/>
@@ -34,11 +35,11 @@ echo <<<end
 <thead>
 <tr>
 <th width="30" data-sorter=""></th>
-<th>Name</th>
-<th>Symbol</th>
-<th>Algo</th>
-<th>Version</th>
-<th>Height</th>
+<th>Coin Name</th>
+<th>Coin Symbol</th>
+<th>Coin Algo</th>
+<th>Wallet Version</th>
+<th>Block Height</th>
 <th>Difficulty</th>
 <th>Connections</th>
 <th>Network Hash</th>
