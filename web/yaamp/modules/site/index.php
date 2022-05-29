@@ -191,10 +191,11 @@ endif;
 <div class="main-left-inner">
 
 <ul class="social-icons">
-    <li><a href="http://www.discord.com"><img src='/images/discord.png' /></a></li>
+    <li><a href="http://www.discord.com"><img src='/images/Discord.png' /></a></li>
+    <li><a href="http://www.facebook.com"><img src='/images/Facebook.png' /></a></li>
     <li><a href="http://www.twitter.com"><img src='/images/Twitter.png' /></a></li>
-    <li><a href="mailto:"><img src='/images/email.png' /></a></li>
-    <li><a href="http://www.telegram.com"><img src='/images/telegram.png' /></a></li>
+    <li><a href="mailto:"><img src='/images/Email.png' /></a></li>
+    <li><a href="http://www.telegram.com"><img src='/images/Telegram.png' /></a></li>
     <li><a href="http://www.github.com"><img src='/images/Github.png' /></a></li>
 
 </ul>
