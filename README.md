@@ -1,6 +1,7 @@
 ### Welcome to the Afiniel github!
 ### This fork of YiiMP is designed to work with our Yiimpool Installer.
-Trying to install this on a server not built by our installer will cause headaches, frustrations, and screaming loudly at your monitor.
+Trying to install this fork of Yiimp can result in crashes and issues. Use the the installer to install.
+
 
 #### Please go to https://github.com/Afiniel-tech/Yiimpool-Installer for our installer.
 
