@@ -1,7 +1,7 @@
 -- Recent additions to add after db init (.gz)
 -- mysql yaamp -p < file.sql
 
--- Additional fields for additions by cryptopool.builders
+-- Additional fields for additions by Afiniel-tech
 
 ALTER TABLE `coins` ADD `link_twitter` varchar(1024) DEFAULT NULL AFTER `link_explorer`;
 ALTER TABLE `coins` ADD `link_facebook` varchar(1024) DEFAULT NULL AFTER `link_twitter`;
