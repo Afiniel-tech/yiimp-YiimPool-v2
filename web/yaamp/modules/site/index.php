@@ -16,7 +16,7 @@ $min_sunday = $min_payout / 10;
 $payout_freq = (YAAMP_PAYMENTS_FREQ / 3600) . " hours";
 ?>
 
-<div id='resume_update_button' style='color: #ffffff; background-color: #FF9A2C; border: 1px solid #7d7d7d;
+<div id='resume_update_button' style='color: #FF9A2C; background-color: #41464b; border: 1px solid #FF9A2C;
     padding: 10px; margin-left: 20px; margin-right: 20px; margin-top: 15px; cursor: pointer; display: none;'
     onclick='auto_page_resume();' align=center>
     <b>Auto Refresh Is Paused - Click Here To Resume</b></div>
@@ -27,12 +27,12 @@ $payout_freq = (YAAMP_PAYMENTS_FREQ / 3600) . " hours";
 <!--  -->
 
 <div class="main-left-box">
-<div class="main-left-title">domain</div>
+<div class="main-left-title">Welcome to <?=YAAMP_SITE_URL?></div>
 <div class="main-left-inner">
 
 <center>
 <ul>
-<li><b>Welcome to your new mining pool, domain !</b></li>
+<li><b>Welcome to your new mining pool, <?=YAAMP_SITE_URL?> !</b></li>
 <li>---------------------------------------------------------------------------------------------------</li>
 <li>This installation was completed using Afiniel Yiimp Pool Installer.</li>
 <li>To make any changes on this page edit: /home/crypto-data/yiimp/site/web/yaamp/modules/site/index.php</li>
@@ -52,7 +52,7 @@ $payout_freq = (YAAMP_PAYMENTS_FREQ / 3600) . " hours";
 <!-- Stratum Auto generation code, will automatically add coins when they are enabled and auto ready -->
 
 <div class="main-left-box">
-<div class="main-left-title">Generate stratum command </div>
+<div class="main-left-title">Generate stratum command to connect to <?=YAAMP_SITE_URL?></div>
 <div class="main-left-inner">
 
 <center><table>
@@ -73,9 +73,9 @@ $payout_freq = (YAAMP_PAYMENTS_FREQ / 3600) . " hours";
 			<select id="drop-stratum" colspan="2" style="min-width: 140px; border-style:solid; padding: 3px; font-family: monospace; border-radius: 5px;">
 
 <!-- Add your stratum locations here -->
-			<option value="eu.">Europe</option>
-		<!--	<option value="us">US Stratum</option>
-			<option value="aus.">AUS Stratum</option>
+			<option value="eu.">Eu</option>
+			<option value="us">Us</option>
+	<!--		<option value="aus.">AUS Stratum</option>
 			<option value="cad.">CAD Stratum</option>
 			<option value="uk.">UK Stratum</option> -->
 		</select>
@@ -105,7 +105,7 @@ $payout_freq = (YAAMP_PAYMENTS_FREQ / 3600) . " hours";
         ':symbol' => $symbol
         ));
 
-        if ($port_count >= 1){$port = $port_db->port;}else{$port = '0.0.0.0';}
+        if ($port_count >= 1){$port = $port_db->port;}else{$port = '0000';}
         if($count == 0){ echo "<option disabled=''>$algo";}elseif($algo != $algoheading){echo "<option disabled=''>$algo</option>";}
         echo "<option data-port='$port' data-algo='-a $algo' data-symbol='$symbol'>$name ($symbol)</option>";
 
@@ -138,7 +138,7 @@ $payout_freq = (YAAMP_PAYMENTS_FREQ / 3600) . " hours";
 		</td>
 	</tr>
 	<tr>
-			<td colspan="7"><p class="main-left-box" style="padding: 3px; color: #000000; background-color: #ffffff; font-family: monospace;" id="output">-a  -o stratum+tcp://domain:0000 -u . -p c=</p>
+			<td colspan="7"><p class="main-left-box" style="padding: 3px; color: #000000; background-color: #ffffff; font-family: monospace;" id="output">-a  -o stratum+tcp://<?=YAAMP_SITE_URL?>:0000 -u . -p c=</p>
 		</td>
 	</tr>
 </tbody></table>
@@ -146,7 +146,7 @@ $payout_freq = (YAAMP_PAYMENTS_FREQ / 3600) . " hours";
 <ul>
 <li><b>Your WALLET ADDRESS must be valid for the currency you mine !</b></li>
 <li><b>DO NOT USE a BTC address here, the auto exchange is disabled on these stratums !</b></li>
-<li>See the "domain Coins" area on the right for PORT numbers. You may mine any coin regardless if the coin is enabled or not for autoexchange. Payouts will only be made in that coins currency.</li>
+<li>See the "<?=YAAMP_SITE_URL?> Coins" area on the right for PORT numbers. You may mine any coin regardless if the coin is enabled or not for autoexchange. Payouts will only be made in that coins currency.</li>
 <br>
 </ul>
 </div></div></center><br>
@@ -154,7 +154,7 @@ $payout_freq = (YAAMP_PAYMENTS_FREQ / 3600) . " hours";
 <!-- End new stratum generation code  -->
 
 <div class="main-left-box">
-<div class="main-left-title">domain Links</div>
+<div class="main-left-title"><?=YAAMP_SITE_URL?> API</div>
 <div class="main-left-inner">
 
 <ul>
@@ -187,17 +187,17 @@ endif;
 </div></div><br>
 
 <div class="main-left-box">
-<div class="main-left-title">domain Links</div>
+<div class="main-left-title"><?=YAAMP_SITE_URL?> Social media</div>
 <div class="main-left-inner">
 
 <ul class="social-icons">
     <li><a href="http://www.discord.com"><img src='/images/Discord.png' /></a></li>
-    <li><a href="http://www.facebook.com"><img src='/images/Facebook.png' /></a></li>
     <li><a href="http://www.twitter.com"><img src='/images/Twitter.png' /></a></li>
-    <li><a href="mailto:"><img src='/images/Email.png' /></a></li>
-    <li><a href="http://www.telegram.com"><img src='/images/Telegram.png' /></a></li>
+    <li><a href="https://t.me/"><img src='/images/Telegram.png' /></a></li>
+    <li><a href="https://www.facebook.com/"><img src='/images/Facebook.png' /></a></li>
+    <li><a href="http://www.youtube.com"><img src='/images/youtube.png' /></a></li>
     <li><a href="http://www.github.com"><img src='/images/Github.png' /></a></li>
-
+    <!--   <li><a href="mailto:"><img src='/images/Email.png' /></a></li> -->
 </ul>
 
 </div></div><br>
@@ -269,7 +269,7 @@ function getLastUpdated(){
     var result = '';
 
     result += coin.options[coin.selectedIndex].dataset.algo + ' -o stratum+tcp://';
-    result += stratum.value + 'domain:';
+    result += stratum.value + '<?=YAAMP_SITE_URL?>:';
     result += coin.options[coin.selectedIndex].dataset.port + ' -u ';
     result += document.getElementById('text-wallet').value;
     if (rigName) result += '.' + rigName;

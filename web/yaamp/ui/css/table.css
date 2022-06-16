@@ -8,7 +8,7 @@ table.dataGrid
 
 table.dataGrid a, table.dataGrid a:visited
 {
-	color: #aebbc1;
+	color: #FF9A2C;
 }
 
 table.dataGrid th, table.dataGrid td
@@ -20,7 +20,7 @@ table.dataGrid th
 {
 	border-bottom: 1px solid #7d7d7d;
 	background-color: #41464b;
-	color: #fff;
+	color: #FF9A2C;
 }
 
 table.dataGrid tbody
@@ -96,7 +96,7 @@ table.dataGrid2 thead tr .headerSortDown {
 
 table.dataGrid2 th.tablesorter-headerAsc,
 table.dataGrid2 th.tablesorter-headerDesc {
-	color: #d92b13;
+	color: #ff9a2c;
 	/* background-color: #D2E3FB; */
 }
 

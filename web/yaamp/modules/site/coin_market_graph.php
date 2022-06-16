@@ -1,4 +1,5 @@
 <?php
+
 JavascriptFile("/extensions/jqplot/jquery.jqplot.js");
 JavascriptFile("/extensions/jqplot/plugins/jqplot.enhancedLegendRenderer.js");
 JavascriptFile("/extensions/jqplot/plugins/jqplot.dateAxisRenderer.js");
@@ -120,7 +121,7 @@ function graph_price_data(data)
 		grid: {
 			borderWidth: 1,
 			shadowWidth: 0, shadowDepth: 0,
-			background: '#41464b'
+			background: '#f0f0f0'
 		},
 
 		legend: {
@@ -207,7 +208,7 @@ function graph_balance_data(data)
 		grid: {
 			borderWidth: 1,
 			shadowWidth: 0, shadowDepth: 0,
-			background: '#41464b'
+			background: '#f0f0f0'
 		},
 
 		legend: {
@@ -251,6 +252,5 @@ function graph_balance_data(data)
 }
 </script>
 end;
-
 
 // JavascriptReady("$(window).resize(graph_resized);");
