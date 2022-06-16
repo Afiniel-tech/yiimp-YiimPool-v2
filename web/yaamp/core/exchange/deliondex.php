@@ -1,8 +1,8 @@
 <?php
-// http://labs.escodex.com/api/ticker
-function escodex_api_query($method, $params='')
+// https://api.delion.online/public/v1/tickers
+function deliondex_api_query($method, $params='')
 {
-	$uri = "http://labs.escodex.com/api/{$method}";
+	$uri = "https://api.delion.online/public/v1/{$method}";
 	if (!empty($params)) $uri .= "/{$params}";
 	$ch = curl_init($uri);
 	curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
